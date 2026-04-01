@@ -3,7 +3,7 @@ import Navbar from './Components/navbar/Navbar'
 import Hero from './Components/hero/Hero'
 import User from './Components/user/User'
 import Tools from './Components/tools/Tools'
-// import { Suspense } from 'react'
+import { Suspense } from 'react'
 // import Step from './Components/step/Step'
 // import Popular from './Components/popular/Popular'
 // import { useState } from 'react'
@@ -24,7 +24,7 @@ function App() {
     <Hero></Hero>
     <User></User>
     <Suspense fallback={<p>Data is loading</p>}>
-      <Tools modelPromise={modelPromise} ></Tools>
+      <Tools modelPromise={modelPromise} cart={cart} setCart={setCart}></Tools>
     </Suspense>
     {/* <Step></Step>
     <Popular></Popular>
