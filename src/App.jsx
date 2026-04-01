@@ -1,5 +1,5 @@
 import './App.css'
-// import Navbar from './Components/navbar/Navbar'
+import Navbar from './Components/navbar/Navbar'
 // import Hero from './Components/hero/Hero'
 // import User from './Components/user/User'
 // import Tools from './Components/tools/Tools'
@@ -20,8 +20,8 @@ function App() {
   // const [cart,setCart]=useState([]);
   return (
     <>
-    {/* <Navbar></Navbar>
-    <Hero></Hero>
+    <Navbar></Navbar>
+    {/* <Hero></Hero>
     <User></User>
     <Suspense fallback={<p>Data is loading</p>}>
       <Tools modelPromise={modelPromise} cart={cart} setCart={setCart}></Tools>
