@@ -20,7 +20,7 @@ const AvailableCard = ({model,cart,setCart}) => {
         <div className='shadow-xl rounded-2xl p-5'>
                             <div className='flex justify-between'>
                                 <img src={writingImg} alt={model.name} />
-                                <p className={` px-3 py-1 rounded-full font-bold text-xs ${tagStyle[model.tagType] || 'bg-gray-100'}`}>{model.tag}</p>
+                                <p className={` px-3 py-1 rounded-full  font-bold text-xs ${tagStyle[model.tagType] || 'bg-gray-100'}`}>{model.tag}</p>
                             </div>
                             <div>
                                 <h2 className='text-2xl font-bold m-2'>{model.name}</h2>
