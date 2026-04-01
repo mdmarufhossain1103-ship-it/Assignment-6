@@ -1,7 +1,7 @@
 import './App.css'
 import Navbar from './Components/navbar/Navbar'
 import Hero from './Components/hero/Hero'
-// import User from './Components/user/User'
+import User from './Components/user/User'
 // import Tools from './Components/tools/Tools'
 // import { Suspense } from 'react'
 // import Step from './Components/step/Step'
@@ -22,8 +22,8 @@ function App() {
     <>
     <Navbar></Navbar>
     <Hero></Hero>
-    {/* <User></User>
-    <Suspense fallback={<p>Data is loading</p>}>
+    <User></User>
+    {/* <Suspense fallback={<p>Data is loading</p>}>
       <Tools modelPromise={modelPromise} cart={cart} setCart={setCart}></Tools>
     </Suspense>
     <Step></Step>
