@@ -4,7 +4,7 @@ import Hero from './Components/hero/Hero'
 import User from './Components/user/User'
 import Tools from './Components/tools/Tools'
 import { Suspense } from 'react'
-// import Step from './Components/step/Step'
+import Step from './Components/step/Step'
 // import Popular from './Components/popular/Popular'
 // import { useState } from 'react'
 // import Workflow from './Components/workflow/Workflow'
@@ -17,7 +17,7 @@ const getModel= async() => {
 }
 function App() {
   const modelPromise=getModel();
-  // const [cart,setCart]=useState([]);
+  const [cart,setCart]=useState([]);
   return (
     <>
     <Navbar></Navbar>
