@@ -1,6 +1,6 @@
 import './App.css'
 import Navbar from './Components/navbar/Navbar'
-// import Hero from './Components/hero/Hero'
+import Hero from './Components/hero/Hero'
 // import User from './Components/user/User'
 // import Tools from './Components/tools/Tools'
 // import { Suspense } from 'react'
@@ -21,8 +21,8 @@ function App() {
   return (
     <>
     <Navbar></Navbar>
-    {/* <Hero></Hero>
-    <User></User>
+    <Hero></Hero>
+    {/* <User></User>
     <Suspense fallback={<p>Data is loading</p>}>
       <Tools modelPromise={modelPromise} cart={cart} setCart={setCart}></Tools>
     </Suspense>
