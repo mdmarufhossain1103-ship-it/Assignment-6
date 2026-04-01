@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "name": "Starter Resume Builder",
+    "description": "Create professional resumes with easy-to-use templates.",
+    "price": 9.99,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "20+ templates",
+      "Basic ATS optimization",
+      "Export to PDF"
+    ],
+    "icon": "file-text",
+    "img": "https://via.placeholder.com/300x200?text=Starter+Resume"
+  },
+  {
+    "id": 2,
+    "name": "Pro Resume Kit",
+    "description": "Advanced resume building tools for job seekers.",
+    "price": 19.99,
+    "period": "one-time",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "100+ templates",
+      "Full ATS optimization",
+      "Cover letter builder",
+      "Export to PDF & Word"
+    ],
+    "icon": "briefcase",
+    "img": "https://via.placeholder.com/300x200?text=Pro+Resume"
+  },
+  {
+    "id": 3,
+    "name": "Career Plus Subscription",
+    "description": "Monthly access to premium resume and career tools.",
+    "price": 7.99,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "Unlimited resumes",
+      "Premium templates",
+      "AI suggestions",
+      "Download in multiple formats"
+    ],
+    "icon": "star",
+    "img": "https://via.placeholder.com/300x200?text=Career+Plus"
+  },
+  {
+    "id": 4,
+    "name": "Job Hunter Pack",
+    "description": "All-in-one toolkit for active job seekers.",
+    "price": 49.99,
+    "period": "one-time",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Resume builder",
+      "Cover letter generator",
+      "Interview tips",
+      "LinkedIn profile optimizer"
+    ],
+    "icon": "search",
+    "img": "https://via.placeholder.com/300x200?text=Job+Hunter"
+  },
+  {
+    "id": 5,
+    "name": "Executive Resume Service",
+    "description": "Premium resume service for senior professionals.",
+    "price": 99.99,
+    "period": "one-time",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "Executive templates",
+      "1-on-1 consultation",
+      "Advanced ATS optimization",
+      "Priority support"
+    ],
+    "icon": "award",
+    "img": "https://via.placeholder.com/300x200?text=Executive+Resume"
+  },
+  {
+    "id": 6,
+    "name": "Student Starter Plan",
+    "description": "Affordable resume tools for students and fresh graduates.",
+    "price": 4.99,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "Student-friendly templates",
+      "Basic editing tools",
+      "Export to PDF",
+      "Email support"
+    ],
+    "icon": "book",
+    "img": "https://via.placeholder.com/300x200?text=Student+Plan"
+  },
+  {
+    "id": 7,
+    "name": "Freelancer Portfolio Builder",
+    "description": "Create stunning portfolios to showcase your work.",
+    "price": 12.99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Portfolio templates",
+      "Custom domain support",
+      "Media uploads",
+      "SEO optimization"
+    ],
+    "icon": "image",
+    "img": "https://via.placeholder.com/300x200?text=Portfolio+Builder"
+  },
+  {
+    "id": 8,
+    "name": "Ultimate Career Bundle",
+    "description": "Complete package for resumes, portfolios, and career growth.",
+    "price": 79.99,
+    "period": "yearly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "All premium features",
+      "Unlimited downloads",
+      "AI career coaching",
+      "Priority customer support"
+    ],
+    "icon": "layers",
+    "img": "https://via.placeholder.com/300x200?text=Career+Bundle"
+  }
+]
