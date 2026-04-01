@@ -5,11 +5,11 @@ import User from './Components/user/User'
 import Tools from './Components/tools/Tools'
 import { Suspense } from 'react'
 import Step from './Components/step/Step'
-// import Popular from './Components/popular/Popular'
-// import { useState } from 'react'
-// import Workflow from './Components/workflow/Workflow'
-// import Footer from './Components/footer/Footer'
-// import { ToastContainer } from 'react-toastify';
+import Popular from './Components/popular/Popular'
+import { useState } from 'react'
+import Workflow from './Components/workflow/Workflow'
+import Footer from './Components/footer/Footer'
+import { ToastContainer } from 'react-toastify';
 
 const getModel= async() => {
   const res = await fetch ("/data.json");
@@ -26,11 +26,11 @@ function App() {
     <Suspense fallback={<p>Data is loading</p>}>
       <Tools modelPromise={modelPromise} cart={cart} setCart={setCart}></Tools>
     </Suspense>
-    {/* <Step></Step>
+    <Step></Step>
     <Popular></Popular>
     <Workflow></Workflow>
     <Footer></Footer>
-    <ToastContainer /> */}
+    <ToastContainer />
     </>
   )
 }
