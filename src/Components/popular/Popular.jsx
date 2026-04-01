@@ -10,7 +10,7 @@ const Popular = () => {
                     <h2 className='font-bold text-2xl mb-4'>Simple, Transparent Pricing</h2>
                     <p className='text-gray-400'>Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
                 </div>
-                <div className='flex flex-wrap md:flex-nowrap justify-between '>
+                <div className='flex flex-col md:flex-row flex-wrap md:flex-nowrap justify-between '>
                     <div className='bg-gray-100 p-5 rounded-2xl'>
                     
                         <div>

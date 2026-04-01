@@ -5,9 +5,9 @@ import heroImg from '../../assets/banner.png'
 const Hero = () => {
     return (
         <div className='max-w-[85%] mx-auto mt-30'>
-         <div className='flex gap-30'>
+         <div className='flex flex-col md:flex-row  gap-30'>
             <div className='flex flex-col justify-center'>
-                <div className='flex gap-2 bg-sky-100 max-w-[60%] p-2 rounded-full mb-10'>
+                <div className='flex gap-2 bg-sky-100 md:max-w-[60%] p-2 rounded-full mb-10'>
                 <img src={group5} alt="" />
                 <p className="text-transparent bg-clip-text bg-linear-to-r from-[#4F39F6] to-[#9514FA] overflow-hidden">New: AI-Powered Tools Available</p>
                 </div>

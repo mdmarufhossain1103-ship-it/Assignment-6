@@ -10,7 +10,7 @@ const Step = () => {
                 <h2 className='text-4xl font-bold'>Get Started in 3 Steps</h2>
                 <p>Start using premium digital tools in minutes, not hours.</p>
             </div>
-            <div className='flex gap-15'>
+            <div className='flex flex-col md:flex-row gap-15'>
                 <div className='shadow-2xl rounded-2xl p-5'>
                    <div className='flex justify-end mb-2'>
                      <p className='flex justify-center items-center font-bold w-7 h-7  rounded-full text-white bg-linear-to-r from-[#4F39F6] to-[#9514FA]'>01</p>

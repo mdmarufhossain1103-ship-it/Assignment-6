@@ -6,7 +6,7 @@ import twitter from '../../assets/products/Twitter.png'
 const Footer = () => {
     return (
         <div className='bg-[#101727] text-white'>
-            <div className=' max-w-[85%] mx-auto p-30 flex justify-between'>
+            <div className=' max-w-[85%] mx-auto p-30 flex flex-col md:flex-row justify-between'>
                 <div>
                     <h2 className='text-4xl font-bold'>Digitools</h2>
                     <p className='mt-5 text-gray-600'>Premium digital tools for creators, <br /> professionals, and businesses. Work smarter <br /> with our suite of powerful tools.</p>
